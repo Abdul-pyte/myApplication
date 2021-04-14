@@ -1,0 +1,19 @@
+<resources>
+    <string name="toast_favlist_song_add"></string>
+    <string name="delete"></string>
+    <string name="row"></string>
+    <string name="data"></string>
+
+    <string name="delete_song"></string>
+    <string name="dismiss"></string>
+    <string name="addtofav"></string>
+    <string name="help6"></string>
+
+    <string name="help5"></string>
+    <string name="tool_menu"></string>
+    <string name="tool_menu2"></string>
+    <string name="project"></string>
+    <string name="calender"></string>
+    <string name="toast_simple_remove"></string>
+    <string name="toast_favlist_song_remove"></string>
+</resources>
