@@ -6,11 +6,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/Seashell">
+
     <androidx.appcompat.widget.Toolbar
 
         android:id="@+id/toolbar2"
         android:layout_width="match_parent"
-        android:layout_height="5dp" />
+        android:layout_height="35dp" />
     <androidx.drawerlayout.widget.DrawerLayout
         android:id="@+id/drawer_layou"
         android:layout_width="match_parent"
@@ -29,9 +30,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="top"
                 android:layout_marginTop="5dp"
-                android:text="@string/searchpage"
+                android:text=""
                 android:textSize="20dp"
-                android:background="@color/white"/>
+                android:background="@color/Seashell"/>
 
 
             <ImageButton

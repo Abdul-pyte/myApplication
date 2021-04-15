@@ -115,7 +115,7 @@ public class CarActivity extends AppCompatActivity implements NavigationView.OnN
 
 
         Button searchButton = findViewById(R.id.Search);
-        searchButton.setText(R.string.songsearch);
+        searchButton.setText(R.string.songs_earch);
         searchButton.setOnClickListener(e->{
             String manu=searchText.getText().toString().trim();
 

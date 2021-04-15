@@ -74,40 +74,37 @@
     master
 
     new
-    <string name="email">Entrez votre e-mail pour obtenir les dernières mises à jour</string>
+    <string name="email">أدخل بريدك الإلكتروني للحصول على آخر التحديثات</string>
     <!-- fragment-->
     <string name="title_activity_songster_a_p_i__view">SongsterAPI_View</string>
-    <string name="songhelp">Pour rechercher les chansons de votre artiste ou groupe préféré
-    tapez le nom dans la barre de recherche et il chargera les chansons liées au groupe ou à l artiste.
-    Vous pouvez également voir les informations en cliquant sur et les ajouter à la liste des favoris en appuyant sur le bouton des favoris
-    .En frappant l étoile à côté du bouton de recherche, il chargera toutes vos chansons préférées.Vous pouvez également supprimer les chansons
-    de votre liste de favoris en cliquant longuement dessus.</string>
-    <string name="favbtn">Ajouter aux favoris</string>
-    <string name="play">Jouer la chanson</string>
-    <string name="back">Retour</string>
-    <string name="help5">Rejeter</string>
-    <string name="help6">Bienvenue chez Songster</string>
+    <string name="songhelp">للبحث عن الأغاني من قبل الفنان أو المجموعة المفضلة لديك</string>
+    <string name="favbtn">"     اكتب الاسم في شريط البحث وسيتم تحميل الأغاني المتعلقة بالفرقة أو الفنان."</string>
+    <string name="play">"     يمكنك أيضًا عرض المعلومات بالنقر فوقها وإضافتها إلى قائمة المفضلة بالضغط على زر المفضلة"</string>
+    <string name="back">"     بضرب النجمة بجانب زر البحث سيتم تحميل جميع الأغاني المفضلة لديك كما يمكنك حذف الأغاني."</string>
+    <string name="help5">"     من قائمة المفضلة لديك من خلال النقر عليها لفترة طويلة."</string>
+    <string name="help6">مرحبًا بك في المطربين</string>
     <!--search page-->
-    <string name="searchpage">Recherche de chanteurs</string>
-    <string name="header">Songster-API</string>
-    <string name="welcome">Bienvenue dans Songster, il vous permet de rechercher votre artiste ou vos groupes préférés</string>
-    <string name="emailhint">Adresse e-mail</string>
-    <string name="loginbtn">Cliquez ici</string>
-    <string name="calender">Calendrier</string>
-    <string name="delete">Voulez-vous supprimer ceci?</string>
-    <string name="row">La ligne sélectionnée est:</string>
-    <string name="data">La ligne sélectionnée est:</string>
-    <string name="hint">Recherchez votre album préféré</string>
-    <string name="songsearch">Chercher</string>
-    <string name="project">Chanteur</string>
-    <string name="project_name">Projet:Chanteur</string>
-    <string name="tool_menu">Le menu d aide est ouvert</string>
-    <string name="tool_menu2">L application Songster est ouverte</string>
-    <string name="main_page_toast">Vous êtes redirigé vers la page de recherche en cliquant sur</string>
-    <string name="toast_favlist_song_add">La liste des favoris est vide</string>
-    <string name="toast_favlist_song_remove">supprimé de la liste des favoris</string>
-    <string name="toast_simple_remove">supprimé de la liste</string>
-    <string name="delete_song">Effacer</string>
-    <string name="dismiss">Rejeter</string>
-    <string name="addtofav">Ajouter aux favoris</string>
+    <string name="searchpage">ابحث عن مطربين</string>
+    <string name="header">مطربين-API</string>
+    <string name="welcome">مرحبًا بك في المطربين ، فهو يتيح لك البحث عن الفنان أو الفرق الموسيقية المفضلة لديك</string>
+    <string name="emailhint">البريد الإلكتروني</string>
+    <string name="loginbtn">انقر هنا</string>
+    <string name="calender">تقويم</string>
+    <string name="delete">هل تريد حذف هذا؟</string>
+    <string name="row">السطر المحدد هو:</string>
+    <string name="data">السطر المحدد هو:</string>
+    <string name="hint">ابحث عن ألبومك المفضل</string>
+    <string name="songsearch">يبحث</string>
+    <string name="songs_earch">بحث</string>
+    <string name="project">مغني</string>
+    <string name="project_name">المشروع: مغني</string>
+    <string name="tool_menu">قائمة المساعدة مفتوحة</string>
+    <string name="tool_menu2">تطبيق المطربين مفتوح</string>
+    <string name="main_page_toast">يتم إعادة توجيهك إلى صفحة البحث عن طريق النقر فوق</string>
+    <string name="toast_favlist_song_add">قائمة المفضلة فارغة</string>
+    <string name="toast_favlist_song_remove">حذف من قائمة المفضلة</string>
+    <string name="toast_simple_remove">حذف من القائمة</string>
+    <string name="delete_song">تمحو</string>
+    <string name="dismiss">للرفض</string>
+    <string name="addtofav">إضافة إلى المفضلة</string>
 </resources>

@@ -104,8 +104,9 @@
     <string name="data">The database id:</string>
 
     <!--search page-->
-    <string name="searchpage">Songster Search</string>
+    <string name="searchpage"></string>
     <string name="hint">Search your favourite album</string>
+    <string name="songs_earch">Search</string>
     <string name="songsearch">Search</string>
     <string name="header">Songster-API</string>
     <string name="loginbtn">Click here</string>

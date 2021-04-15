@@ -27,6 +27,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -86,12 +87,14 @@ public class SongsterAPI_View extends AppCompatActivity {
         search.setText(artist_search);
         //declaring the navigation menu
         NavigationView nav=findViewById(R.id.nav_vie);
-        //nav.setNavigationItemSelectedListener(this::onNavigationItemSelected);
+        nav.setNavigationItemSelectedListener(this::onNavigationItemSelected);
         //initializing progress bar
         progressBar = findViewById(R.id.progressBar2);
         //initializing the favourite button
         fav_btn = findViewById(R.id.fav_btn);
-        //getSupportActionBar().setTitle("Final Project");
+        Toolbar Too = findViewById(R.id.toolbar2);
+        setSupportActionBar(Too);
+        getSupportActionBar().setTitle(getString(R.string.searchpage));
         //  fav_btn2=findViewById(R.id.fav_btn);
         FrameLayout frameLayout = findViewById(R.id.fragmentLocation);
         boolean result = frameLayout != null;
