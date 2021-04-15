@@ -5,19 +5,11 @@
     android:layout_height="wrap_content"
     android:background="@color/Seashell"
     android:orientation="vertical">
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:background="@color/Seashell"
         android:id="@+id/ques">
-
     </TextView>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/answer">
-
-    </TextView>
-
 </LinearLayout>

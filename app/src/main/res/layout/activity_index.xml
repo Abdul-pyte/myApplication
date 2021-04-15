@@ -7,13 +7,40 @@
     android:background="@color/Seashell"
     tools:context=".IndexActivity">
     <TextView
-        android:id="@id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/indextText"
+        android:text="@string/indextext1"
+        android:textSize="25dp"
+        android:textColor="@color/Brown"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@id/txt30"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:text="Enter the Number of Question :"
+        android:text="@string/triviauser"
         android:layout_marginTop="60dp"
         android:layout_marginLeft="20dp"
         android:textSize="20dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@id/editTxt10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt30"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        />
+    <TextView
+        android:id="@id/txt3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/TriviaEnter"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/editTxt10"
         android:textColor="@color/black"/>
     <EditText
         android:id="@id/editTxt1"
@@ -27,7 +54,7 @@
         android:id="@id/txt1"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:text="Choose the Type of Question :"
+        android:text="@string/triviaquestion"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:textSize="20dp"
@@ -43,7 +70,7 @@
             android:id="@+id/radioTF"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="True or False"
+            android:text="@string/triviaTrueFalse"
             android:layout_below="@+id/txt1"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="40dp"/>
@@ -51,7 +78,7 @@
             android:id="@+id/radioMc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Multiple Choice"
+            android:text="@string/triviaMultiple"
             android:layout_below="@+id/txt1"
             android:layout_toEndOf="@+id/radioTF"
             android:layout_marginTop="10dp"
@@ -60,7 +87,7 @@
             android:id="@+id/radioBoth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Both"
+            android:text="@string/triviaBoth"
             android:layout_below="@+id/txt1"
             android:layout_toEndOf="@+id/radioMc"
             android:layout_marginTop="10dp"
@@ -70,7 +97,7 @@
         android:id="@id/txt2"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:text="Choose Difficulty :"
+        android:text="@string/triviaDifficulty"
         android:layout_below="@+id/gp1"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="20dp"
@@ -86,7 +113,7 @@
             android:id="@+id/radioHard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hard"
+            android:text="@string/Hard"
             android:layout_below="@id/txt2"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="40dp"/>
@@ -94,7 +121,7 @@
             android:id="@+id/radioMedium"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Medium"
+            android:text="@string/Medium"
             android:layout_below="@id/txt2"
             android:layout_toEndOf="@id/radioHard"
             android:layout_marginTop="10dp"
@@ -103,7 +130,7 @@
             android:id="@+id/radioEasy"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Easy"
+            android:text="@string/Easy"
             android:layout_below="@id/txt2"
             android:layout_toEndOf="@id/radioMedium"
             android:layout_marginTop="10dp"
@@ -116,5 +143,5 @@
         android:layout_below="@id/gp2"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="20dp"
-        android:text="SUBMIT"/>
+        android:text="@string/tSUBMIT"/>
 </RelativeLayout>

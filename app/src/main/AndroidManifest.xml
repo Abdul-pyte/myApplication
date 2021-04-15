@@ -17,7 +17,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DetailsFragment"></activity>
         <activity android:name=".Quiz_frame"/>
         <activity android:name=".SongsterAPI_View">
         </activity>

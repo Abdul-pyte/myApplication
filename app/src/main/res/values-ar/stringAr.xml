@@ -108,4 +108,23 @@
     <string name="delete_song">تمحو</string>
     <string name="dismiss">للرفض</string>
     <string name="addtofav">إضافة إلى المفضلة</string>
+
+    amal
+
+    <string name="TriviaEnter">أدخل رقم السؤال :</string>
+    <string name="triviasubmit">أرسل</string>
+    <string name="triviauser">أدخل اسم المستخدم:</string>
+    <string name="triviaquestion">اختر نوع السؤال:</string>
+    <string name="indextext1">مرحبًا بكم في Trivia</string>
+    <string name="triviaTrueFalse">صح او خطأ</string>
+    <string name="triviaMultiple">متعدد الخيارات</string>
+    <string name="triviaBoth">كلاهما</string>
+    <string name="triviaDifficulty">اختر الصعوبة:</string>
+    <string name="Hard">صعب</string>
+    <string name="Medium">وسط</string>
+    <string name="Easy">سهل</string>
+    <string name="tSUBMIT">ارسل</string>
+    <string name="UnAnswered">لا يوجد جواب : </string>
+    <string name="ttSUBMIT">ارسل</string>
+
 </resources>

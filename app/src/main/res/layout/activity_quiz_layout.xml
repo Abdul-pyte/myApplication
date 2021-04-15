@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/Seashell"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailsFragment">
-
+    tools:context=".Quizlayout">
     <TextView
         android:id="@+id/txt2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt1"
+        android:textColor="@android:color/black"
         android:layout_marginTop="40dp"
         android:layout_marginLeft="30dp"/>
 
@@ -48,14 +46,14 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/optBtn3"
             android:textSize="15sp"/>
-        <Button
-            android:id="@+id/sbtBtn"
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/optBtn3"
-            android:layout_marginTop="40dp"
-            android:layout_marginLeft="150dp"
-            android:textSize="15sp"
-            android:text="SUBMIT"/>
     </RadioGroup>
+    <Button
+        android:id="@+id/sbtBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/options"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="49dp"
+        android:text="@string/ttSUBMIT"
+        android:textSize="15sp" />
 </RelativeLayout>

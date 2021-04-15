@@ -129,4 +129,24 @@
     <string name="delete_song">Delete</string>
     <string name="dismiss">Dismiss</string>
     <string name="addtofav">Add To Favourite</string>
+    amal
+
+    <string name="triviasubmit">SUBMIT</string>
+    <string name="TriviaEnter">Enter the Number of Question :</string>
+
+    <string name="triviauser">Enter the Name of user :</string>
+    <string name="triviaquestion">Choose the Type of Question :</string>
+    <string name="indextext1">Welcom To Trivia</string>
+    <string name="triviaTrueFalse">True or False</string>
+    <string name="triviaMultiple">Multiple Choice</string>
+    <string name="triviaBoth">Both</string>
+    <string name="triviaDifficulty">Choose Difficulty :</string>
+    <string name="Hard">Hard</string>
+    <string name="Medium">Medium</string>
+    <string name="Easy">Easy</string>
+    <string name="tSUBMIT">SUBMIT</string>
+    <string name="UnAnswered">Not Answered : </string>
+    <string name="ttSUBMIT">SUBMIT</string>
+
+
 </resources>
