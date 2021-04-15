@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
@@ -15,10 +14,6 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.view.GravityCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
-
-import com.google.android.material.navigation.NavigationView;
 
 public class SongMainActivity extends AppCompatActivity {
     SharedPreferences sharedPreferences;
@@ -82,7 +77,7 @@ public class SongMainActivity extends AppCompatActivity {
            case R.id.item1:
                AlertDialog.Builder alert = new AlertDialog.Builder(this);
                alert.setTitle(R.string.help6)
-                       .setMessage(R.string.help).setNeutralButton(R.string.help5, (click, b) -> {
+                       .setMessage(R.string.songhelp).setNeutralButton(R.string.help5, (click, b) -> {
                }).create().show();
                message=getString(R.string.tool_menu);
                break;

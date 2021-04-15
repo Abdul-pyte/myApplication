@@ -20,7 +20,6 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -116,7 +115,7 @@ public class CarActivity extends AppCompatActivity implements NavigationView.OnN
 
 
         Button searchButton = findViewById(R.id.Search);
-        searchButton.setText(R.string.search);
+        searchButton.setText(R.string.songsearch);
         searchButton.setOnClickListener(e->{
             String manu=searchText.getText().toString().trim();
 

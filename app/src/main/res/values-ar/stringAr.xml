@@ -12,7 +12,7 @@
     <string name="success">نجاح</string>
     <string name="Yes">نعم</string>
     <string name="No">لا</string>
-    <string name="search">بحث</string>
+
     <string name="car">أبحث عن سيارات</string>
     <string name="soccer">ابحث عن أخبار كرة القدم</string>
     <string name="Songster">أبحث عن مطربين</string>
@@ -24,20 +24,16 @@
     <string name="shopping">تسوق</string>
     <string name="goTB">أذهب الى شريط المهام</string>
     <string name="Ok">تم</string>
-    <string name="Cinstruction">اولا:أكتب اسم ماركة السيارة التي تبحث عنها.
-     ثانيا:أنقر على زر البحث لتحميل المعلومات حول ماركة السيارة.
-        ملاحظة: يمكنك الغاء تحميل المعلومات على طريق الضغط على الغاء التحميل في شريط المهام
-     "سيكون لديك قائمة بماركة السيارة التي تنتمي إلى ماركة السيارة التي قررت.
-     ثالثا: ابحث عن السيارة التي ترغب بها  فيها ثم  اضغط عليها ضغطة طويلة
-        . اخيرا:سوف يظهر مربع حوار يحتوي على معلومات حول السيارة المختارة</string>
-    <string name="help">تعلميات</string>
+    <string name="Soccerinstruction">انقر على كرة القدم الجديدة لرؤية الصورة والتاريخ الجديد بالكامل ،
+        يمكنك إضافة أي جديد في المفضلة وحذفه من قائمة المفضلة.</string>
+
     <string name="AddV">أضف الى المفضلة</string>
     <string name="carview">أذهب الى معاينة السيارات</string>
     <string name="savedCar">التفاصيل السيارات المحفوظة</string>
     <string name="carshopping">انت ذاهب لتتسوق سيارات</string>
     <string name="carsaved">حفظت</string>
     <string name="carsearching">يبحث</string>
-    <string name="cardelete">حذف</string>
+    <string name="cardelete">حذفـت</string>
     <string name="deletemessage">هل تريد ان تحذف هذه التفاصيل؟ الصف المحدد هوا:  </string>
     <string name="Cyes">نعم</string>
     <string name="Cno">لا</string>
@@ -48,14 +44,20 @@
     <string name="GoHome">أذهب الى الصحفة الرئيسية</string>
 
 
-    <string name="instruction">حـذف</string>
+    <string name="instruction">
+    اولا:أكتب اسم ماركة السيارة التي تبحث عنها.
+    ثانيا:أنقر على زر البحث لتحميل المعلومات حول ماركة السيارة.
+    ملاحظة: يمكنك الغاء تحميل المعلومات على طريق الضغط على الغاء التحميل في شريط المهام
+    "سيكون لديك قائمة بماركة السيارة التي تنتمي إلى ماركة السيارة التي قررت.
+    ثالثا: ابحث عن السيارة التي ترغب بها  فيها ثم  اضغط عليها ضغطة طويلة</string>
     <string name="soccerDelete">هل تريد ان تحذف هذا الخبر؟؟</string>
     <string name="no">لا</string>
     <string name="yes">نعم</string>
     <string name="ratting">تقييم</string>
     <string name="sccoerhome">أذهب الى الرئيسسية</string>
-    <string name="Instructions">انقر على كرة القدم الجديدة لرؤية الصورة والتاريخ الجديد بالكامل ،
-                                 يمكنك إضافة أي جديد في المفضلة وحذفه من قائمة المفضلة</string>
+
+    .
+    <string name="SocerInstructions">التعليمات</string>
     <string name="sFavo">أذهب الى المفضلة</string>
     <string name="shelp">لقد ضغط على التعليمات</string>
     <string name="Rating">تقييم</string>
@@ -70,4 +72,42 @@
     <string name="sTrivia">أبحث عن فوازير</string>
     <string name="title_activity_soccer__favorites_">""</string>
     master
+
+    new
+    <string name="email">Entrez votre e-mail pour obtenir les dernières mises à jour</string>
+    <!-- fragment-->
+    <string name="title_activity_songster_a_p_i__view">SongsterAPI_View</string>
+    <string name="songhelp">Pour rechercher les chansons de votre artiste ou groupe préféré
+    tapez le nom dans la barre de recherche et il chargera les chansons liées au groupe ou à l artiste.
+    Vous pouvez également voir les informations en cliquant sur et les ajouter à la liste des favoris en appuyant sur le bouton des favoris
+    .En frappant l étoile à côté du bouton de recherche, il chargera toutes vos chansons préférées.Vous pouvez également supprimer les chansons
+    de votre liste de favoris en cliquant longuement dessus.</string>
+    <string name="favbtn">Ajouter aux favoris</string>
+    <string name="play">Jouer la chanson</string>
+    <string name="back">Retour</string>
+    <string name="help5">Rejeter</string>
+    <string name="help6">Bienvenue chez Songster</string>
+    <!--search page-->
+    <string name="searchpage">Recherche de chanteurs</string>
+    <string name="header">Songster-API</string>
+    <string name="welcome">Bienvenue dans Songster, il vous permet de rechercher votre artiste ou vos groupes préférés</string>
+    <string name="emailhint">Adresse e-mail</string>
+    <string name="loginbtn">Cliquez ici</string>
+    <string name="calender">Calendrier</string>
+    <string name="delete">Voulez-vous supprimer ceci?</string>
+    <string name="row">La ligne sélectionnée est:</string>
+    <string name="data">La ligne sélectionnée est:</string>
+    <string name="hint">Recherchez votre album préféré</string>
+    <string name="songsearch">Chercher</string>
+    <string name="project">Chanteur</string>
+    <string name="project_name">Projet:Chanteur</string>
+    <string name="tool_menu">Le menu d aide est ouvert</string>
+    <string name="tool_menu2">L application Songster est ouverte</string>
+    <string name="main_page_toast">Vous êtes redirigé vers la page de recherche en cliquant sur</string>
+    <string name="toast_favlist_song_add">La liste des favoris est vide</string>
+    <string name="toast_favlist_song_remove">supprimé de la liste des favoris</string>
+    <string name="toast_simple_remove">supprimé de la liste</string>
+    <string name="delete_song">Effacer</string>
+    <string name="dismiss">Rejeter</string>
+    <string name="addtofav">Ajouter aux favoris</string>
 </resources>

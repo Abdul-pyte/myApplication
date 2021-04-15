@@ -4,11 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FBDEDE"
-    android:orientation="vertical">
-
-
-
+    android:orientation="vertical"
+    tools:context=".SongMainActivity"
+    android:background="@color/Seashell">
 
             <TextView
                 android:id="@+id/textView1"
@@ -17,8 +15,9 @@
                 android:layout_gravity="center"
                 android:text="@string/header"
                 android:textAlignment="center"
-                android:textColor="@color/teal_200"
-                android:textSize="60dp" />
+                android:textColor="@color/Brown"
+                android:textStyle="bold"
+                android:textSize="45dp" />
 
             <TextView
                 android:id="@+id/textView2"
@@ -27,16 +26,21 @@
                 android:layout_gravity="center"
                 android:text="@string/welcome"
                 android:textAlignment="center"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="20dp"
                 android:text="@string/email"
-                android:textSize="17dp" />
+                android:textSize="17dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
 
             <EditText
                 android:id="@+id/edittext"
@@ -44,7 +48,11 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="5dp"
-                android:hint="@string/emailhint" />
+                android:hint="@string/emailhint"
+                android:background="@color/Wheat"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                />
 
 
             <Button
@@ -54,7 +62,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="15dp"
                 android:text="@string/loginbtn"
-
+                android:textStyle="bold"
                 />
 
             <ProgressBar

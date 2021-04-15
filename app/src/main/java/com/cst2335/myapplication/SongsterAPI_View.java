@@ -27,8 +27,6 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.view.GravityCompat;
-import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -87,7 +85,7 @@ public class SongsterAPI_View extends AppCompatActivity {
         String artist_search=sp.getString("Search","");
         search.setText(artist_search);
         //declaring the navigation menu
-       // NavigationView nav=findViewById(R.id.nav_vie);
+        NavigationView nav=findViewById(R.id.nav_vie);
         //nav.setNavigationItemSelectedListener(this::onNavigationItemSelected);
         //initializing progress bar
         progressBar = findViewById(R.id.progressBar2);
@@ -387,7 +385,7 @@ public class SongsterAPI_View extends AppCompatActivity {
             case R.id.item1:
                 AlertDialog.Builder alert = new AlertDialog.Builder(this);
                 alert.setTitle(R.string.help6)
-                        .setMessage(R.string.help).setNeutralButton(R.string.help5, (click, b) -> {
+                        .setMessage(R.string.songhelp).setNeutralButton(R.string.help5, (click, b) -> {
                 }).create().show();
                 message=getString(R.string.tool_menu);
                 break;
