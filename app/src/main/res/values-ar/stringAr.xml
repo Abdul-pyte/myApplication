@@ -74,6 +74,7 @@
     master
 
     new
+    <string name="deletNews">حذف</string>
     <string name="email">أدخل بريدك الإلكتروني للحصول على آخر التحديثات</string>
     <!-- fragment-->
     <string name="title_activity_songster_a_p_i__view">SongsterAPI_View</string>

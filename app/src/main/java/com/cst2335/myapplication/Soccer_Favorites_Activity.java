@@ -45,7 +45,7 @@ public class Soccer_Favorites_Activity extends AppCompatActivity {
                         deletenew(SoccerNew);
                         FavList.remove(position);
                         Snackbar snackbar = Snackbar
-                                .make(listView,getString(R.string.instruction),Snackbar.LENGTH_LONG);
+                                .make(listView,getString(R.string.deletNews),Snackbar.LENGTH_LONG);
                                 //.setAction(getString(R.string.undo) , (View.OnClickListener) view -> {
                                // });
                         snackbar.show();
