@@ -12,7 +12,7 @@
 
 
     <item android:id="@+id/Carinstructions"
-        android:title="@string/SocerInstructions"
+        android:title="@string/CCarInstructions"
         android:icon="@drawable/carview"
         android:orderInCategory="50"
         app:showAsAction="always"/>  <!-- This uses showAsAction=always, so look at icon= parameter -->
